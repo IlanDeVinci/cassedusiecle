@@ -10,9 +10,9 @@
 body{
     z-index: -2;
     width: 100%;
-    background: url("../images/Affiche.png") no-repeat top center fixed;
+    background: url("images/Affiche.png") no-repeat top center fixed;
     background-image: linear-gradient(to bottom, rgba(4, 4, 4, 0.646), rgba(102, 60, 60, 0.502)),
-    url("../images/Affiche.png");
+    url("images/Affiche.png");
     background-size:cover;
     background-repeat: no-repeat;
 }
