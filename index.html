@@ -3,81 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Home - Le Casse Du Siècle</title>
 </head>
 <body>
-    <nav>
-        
-       <img src="https://cdn3.vectorstock.com/i/1000x1000/60/52/logo-a-money-thief-vector-37076052.jpg" alt="">
-       <button>Button</button>
-       <button>Button</button>
-    
-    </nav>
-    <main>
-    <header>
-        <h1>Le Casse Du Siècle</h1>
-        <div class="textintro">
-        <h3>Texte intro Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, enim!</h3>
+    <div id="icon"><a href="javascript:void(0);" class="icon">
+        <i class="fa fa-bars"></i></a>
+    </div>
+    <div class="toggle_side" id="sidenav">
+        <div class="navigation">
+            <div class="side_home"><a href="index.html">HOME</a></div>
+            <div id="side_chapters">
+            <a id="chapters" href="images/Règle Le Casse Du Siècle.pdf">RÈGLES</a></div>
         </div>
-        <button>Bouton</button>
-        <button>Bouton</button>
+        <div class="side_discord"><a id="side_discord_btn" href="contribution.html">CONTRIBUER</a></div>
+    </div>
 
+    <header>
+        <div class="header">
+            <img src="images/logovolFichier 1@4x.png" alt="redstone">
+            <h1 id="titre_phone">LE CASSE DU SIÈCLE</h1>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="images/Règle Le Casse Du Siècle.pdf">RÈGLES</a>
+                <a class="discord" href="contribution.html">Contribuez !</a>
+            </nav>
+            <div class="fake_icon"></div>
+        </div>
+        <h1 id="titre">LE CASSE DU SIÈCLE</h1>
+        <h3 id="contexte">Dérobez le plus de gains !
+            Tous les coups sont permis. Utilisez les cartes actions pour voler,
+            piéger ou voler vos rivaux... Et échappez vous avant l’arrivée de la police !</h3>
     </header>
-        <article class="div1">
-            <section>Article1</section>
-            <section class="vidplayers">
-                <div class="players">
-                <img src="https://cdn-icons-png.flaticon.com/512/4519/4519678.png" alt="">
-                <img src="https://cdn-icons-png.flaticon.com/512/4519/4519678.png" alt="">
-                <img src="https://cdn-icons-png.flaticon.com/512/4519/4519678.png" alt="">
-                <img src="https://cdn-icons-png.flaticon.com/512/4519/4519678.png" alt="">
-                </div>
-                <div class="videowrap">
-                <iframe src="https://www.youtube.com/embed/9ov9DvOvjnE?si=84dpTjy9R0EGRvcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </section>
-                </div>
-            <section>
-                <h1>Texte ici</h1>
-            </section>
-            <section class="imgsection">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/KirbyAsMario.jpg/1024px-KirbyAsMario.jpg" alt="">
-            </section>
-        </article>
-        <article class="div2">
-            <section>Article2</section>
-            <section class="vidplayers">
-                <div class="players">
-                <img src="https://cdn-icons-png.flaticon.com/512/4519/4519678.png" alt="">
-                <img src="https://cdn-icons-png.flaticon.com/512/4519/4519678.png" alt="">
-                <img src="https://cdn-icons-png.flaticon.com/512/4519/4519678.png" alt="">
-                <img src="https://cdn-icons-png.flaticon.com/512/4519/4519678.png" alt="">
-                </div>
-                <div class="videowrap">
-                <iframe src="https://www.youtube.com/embed/9ov9DvOvjnE?si=84dpTjy9R0EGRvcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </section>
-                </div>
-            <section class="textwbutton">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus repudiandae temporibus dolore dolorem dolores nihil itaque. Quidem doloremque sed inventore dolor in recusandae id excepturi quae tenetur facilis, quia quod?</p>
-                    <button>Button</button>
-            </section>
-        </article>
-        <article class="div3">
-            <section>
-            <h2>Donations :</h2>
-            <h3>Youpi</h3>
-            </section>
-            <section>
-                <table>
-                    <tr>
-                        <td>Goal1</td>
-                        <td>Goal2</td>
-                        <td>Goal3</td>
-                        <td>Goal4</td>
-                    </tr>
-                </table>
-            </section>
-        </article>
-        </main>
-        <footer> Copyright Casse du siècle 2024. </footer>
+    
+    <main>
+        <div class="main">
+            <div class="titre"><h1>Bienvenue !</h1></div>
+            <div class="p"><p>Dans "Le Casse Du Siècle", vous retrouverez un plateau, 108 cartes et 4 pions.</p></div>
+            <div class="swiper">
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30" centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                    <swiper-slide><img src="images/SwipeImages/BoîteJeu.png" alt=""></swiper-slide>
+                    <swiper-slide><img src="images/SwipeImages/RenduJeu.png" alt=""></swiper-slide>
+                    <swiper-slide><img src="images/SwipeImages/AllCards.png" alt=""></swiper-slide>
+                </swiper-container>
+            </div>
+        </div>
+    </main>
+
+    <div class="prefooter">
+        <p id="faq">Envie d'aider le projet ?</p>
+        <a class="discord" href="contribution.html"  target="_blank">Contribuer</a>
+    </div>
+
+    <footer>
+        <p>Copyright 2023 Jarod Michel. All Rights Reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
 </body>
 </html>
